@@ -1,0 +1,153 @@
+body {
+    box-sizing: border-box;
+    font-family:'Courier New', Courier, monospace;
+    color: white;
+    background-color: rgb(0, 48, 107);
+}
+
+header {
+    font-size: 2.5em;
+    font-family:'Courier New', Courier, monospace;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    border-radius: 1em;
+    background-color: #2073e0;
+    box-shadow: .2em .2em rgb(151, 151, 151);
+}
+
+span {
+    font-style: italic;
+    font-size: large;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-item {
+    width: 400px;
+    padding: 30px;
+    margin: 50px;
+    border: none;
+    border-radius: 1em;
+    background-color: #2073e0;
+    box-shadow: .5em .5em rgb(151, 151, 151);
+}
+
+
+.container-item-1 {
+    min-height: 300px;
+    flex-shrink: 0;
+}
+
+.container-item-2 {
+    min-height: 300px;
+    flex-shrink: 0;
+}
+
+.btn {
+    text-align: center;
+    vertical-align: middle;
+    padding: .67em .67em;
+    cursor: pointer;
+    width: 85px;
+}
+
+.btn-deposit {
+    color: white;
+    background-color: #40a237;
+    border: none;
+    border-radius: .3em;
+    font-weight: normal;
+}
+
+.btn-withdraw {
+    color: white;
+    background-color: #a23737;
+    border: none;
+    border-radius: .3em;
+    font-weight: normal;
+}
+
+.btn-deposit:hover {
+    background-color: #36643a;
+}
+
+.btn-withdraw:hover {
+    background-color: #643636;
+}
+
+.acct-item {
+    margin: 30px;
+}
+
+.container-item-title {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 2em;
+    color: azure;
+    margin-bottom: 25px;
+}
+
+.container-item-balance {
+    display: block;
+    font-style: oblique;
+    color: white;
+    margin-bottom: 20px;
+    margin-top: 20px;
+	padding: 0px
+}
+
+.container-item-balance-1 {
+    display: block;
+    font-weight: bold;
+    font-size: larger;
+    margin-top: 0px;
+    margin-bottom: 0px;
+	color: white;
+	padding: 5px;
+}
+
+.container-item-balance-2 {
+    display: block;
+    font-weight: large;
+    font-size: small;
+    margin-top: 0px;
+	color: white;
+	padding: 5px;
+}
+
+.container-item-input {
+    border: none;
+    display: block;
+    border-radius: .3em;
+    margin-top: 35px;
+    padding: 12px;
+    width: 300px;
+    appearance: none;
+    outline: none;
+}
+
+.container-item-input:focus::placeholder {
+    color: transparent;
+}
+
+.container-item-input::placeholder {
+    color: #222;
+    transition: color 0.3s ease;
+}
+
+.container-items-btn {
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 10px;
+    padding: 15px 15px;
+}
+
+

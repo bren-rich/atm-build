@@ -9,29 +9,38 @@
     <script src="./script.js" defer></script>
 </head>
 <body>
-    <div>
-        <h1>Checking Account</h1>
-        <label id="checking">1000</label>
-    </div>
-    <div>
-        <input type="text" id="checking-input">
-        <button type="button" id="checking-deposit-btn">Deposit</button>
-        <button type="button" id="checking-withdraw-btn">Withdraw</button>
-    </div>
-    <div>
-        <label id="checking-error" hidden>Error</label>
-    </div>
-    <div>
-        <h1>Savings Account</h1>
-        <label id="savings">3000</label>
-    </div>
-    <div>
-        <input type="text" id="savings-input">
-        <button type="button" id="savings-deposit-btn">Deposit</button>
-        <button type="button" id="savings-withdraw-btn">Withdraw</button>
-    </div>
-    <div>
-        <label id="savings-error" hidden>Error</label>
-    </div>
+    <header class="container-item-0">Welcome to <span>Express</span>ATM</header>
+    <main class="container">
+        <article class="container-item container-item-1">
+            <h1 class="container-item-title">Checking Account</h1>
+            <section class="container-item-balance">
+                <h2 class="container-item-balance-1" id="checking">1000</h2>
+                <h4 class="container-item-balance-2">Available Balance</h4>
+            </section>
+            <section>
+                <input class="container-item-input" type="text" id="checking-input" placeholder="Enter amount">
+                <button type="button" id="checking-deposit-btn" class="btn btn-deposit container-items-btn">Deposit</button>
+                <button type="button" id="checking-withdraw-btn" class="btn btn-withdraw container-items-btn">Withdraw</button>
+            </section>
+            <section>
+                <label id="checking-error" hidden>Error</label>
+            </section>
+        </article>
+        <article class="container-item container-item-2">
+            <h1 class="container-item-title">Savings Account</h1>
+            <section class="container-item-balance">
+                <h2 class="container-item-balance-1" id="savings">3000</h2>
+                <h4 class="container-item-balance-2">Available Balance</h4>
+            </section>
+            <section>
+                <input class="container-item-input" type="text" id="savings-input" placeholder="Enter amount">
+                <button type="button" id="savings-deposit-btn" class="btn btn-deposit container-items-btn">Deposit</button>
+                <button type="button" id="savings-withdraw-btn" class="btn btn-withdraw container-items-btn">Withdraw</button>
+            </section>
+            <section>
+                <label id="savings-error" hidden>Error</label>
+            </section>
+        </article>
+    </main>
 </body>
 </html>
